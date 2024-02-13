@@ -82,7 +82,7 @@ const CourseIdPage = async ({
         <div className="flex items-center justify-between">
           <div className="flex flex-col gap-y-2">
             <h1 className="text-2xl font-medium">
-              Course setup
+            Treatment course setup
             </h1>
             <span className="text-sm text-slate-700">
               Complete all fields {completionText}
@@ -99,7 +99,7 @@ const CourseIdPage = async ({
             <div className="flex items-center gap-x-2">
               <IconBadge icon={LayoutDashboard} />
               <h2 className="text-xl">
-                Customize your course
+                Customize your Treatment course
               </h2>
             </div>
             <TitleForm
@@ -128,7 +128,7 @@ const CourseIdPage = async ({
               <div className="flex items-center gap-x-2">
                 <IconBadge icon={ListChecks} />
                 <h2 className="text-xl">
-                  Course chapters
+                Treatment course Section
                 </h2>
               </div>
               <ChaptersForm
@@ -140,7 +140,7 @@ const CourseIdPage = async ({
               <div className="flex items-center gap-x-2">
                 <IconBadge icon={CircleDollarSign} />
                 <h2 className="text-xl">
-                  Sell your course
+                  Sell your Treatment course
                 </h2>
               </div>
               <PriceForm

@@ -51,10 +51,10 @@ const CreatePage = () => {
     <div className="max-w-5xl mx-auto flex md:items-center md:justify-center h-full p-6">
       <div>
         <h1 className="text-2xl">
-          Name your course
+          Name your Treatment course
         </h1>
         <p className="text-sm text-slate-600">
-          What would you like to name your course? Don&apos;t worry, you can change this later.
+          What would you like to name your Treatment course? Don&apos;t worry, you can change this later.
         </p>
         <Form {...form}>
           <form
@@ -67,7 +67,7 @@ const CreatePage = () => {
               render={({ field }) => (
                 <FormItem>
                   <FormLabel>
-                    Course title
+                  Treatment course title
                   </FormLabel>
                   <FormControl>
                     <Input
@@ -77,7 +77,7 @@ const CreatePage = () => {
                     />
                   </FormControl>
                   <FormDescription>
-                    What will you teach in this course?
+                    What will you teach in this Treatment course?
                   </FormDescription>
                   <FormMessage />
                 </FormItem>
